@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GenAI Business Intelligence</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1c2230; --muted:#66708a; --accent:#2f5de4; --line:#e3e6ee; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:18px 24px; background:var(--ink); color:#fff; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; }
+  header h1 { margin:0; font-size:18px; }
+  .badge { font-size:12px; padding:3px 10px; border-radius:99px; background:#ffffff22; }
+  main { max-width:1050px; margin:20px auto; padding:0 16px; display:grid; gap:16px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  h2 { margin:0 0 10px; font-size:15px; }
+  .row { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  select, input[type=text], button { font:inherit; padding:9px 10px; border:1px solid var(--line); border-radius:8px; }
+  input[type=text] { flex:1; min-width:220px; }
+  button { background:var(--accent); color:#fff; border:0; cursor:pointer; font-weight:600; }
+  button.ghost { background:#eef1fb; color:var(--accent); font-weight:500; padding:5px 10px; font-size:13px; }
+  button:disabled { opacity:.6; cursor:wait; }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:10px; }
+  .kpi { background:#f1f3f8; border-radius:8px; padding:10px 12px; }
+  .kpi b { display:block; font-size:20px; }
+  .muted { color:var(--muted); font-size:13px; }
+  pre { background:#f1f3f8; padding:10px; border-radius:8px; overflow:auto; font-size:13px; margin:6px 0; }
+  .chartbox { position:relative; height:300px; }
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); }
+  .scroll { max-height:300px; overflow:auto; }
+  .error { color:#c23b3b; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Generative AI-Based Business Intelligence System</h1>
+  <span class="badge" id="mode">…</span>
+</header>
+<main>
+  <section>
+    <div class="row">
+      <label>Dataset <select id="dataset"></select></label>
+      <input type="file" id="file" accept=".csv">
+      <button id="upload" class="ghost">Upload CSV</button>
+      <span class="muted" id="uploadMsg"></span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Overview</h2>
+    <div class="kpis" id="kpis"></div>
+    <div class="chartbox" style="margin-top:14px"><canvas id="overviewChart"></canvas></div>
+  </section>
+
+  <section>
+    <h2>Ask a question</h2>
+    <div class="row">
+      <input type="text" id="question" placeholder="e.g. Total revenue by region">
+      <button id="ask">Ask</button>
+    </div>
+    <div class="row" style="margin-top:8px" id="examples"></div>
+    <div id="answer" style="margin-top:14px"></div>
+  </section>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const EXAMPLES = ["Total revenue by region", "Top 5 products by profit", "Monthly revenue trend", "Average units by category"];
+let charts = {};
+
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+async function api(path, opts) {
+  const res = await fetch(path, opts);
+  const body = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(body.detail || res.statusText);
+  return body;
+}
+
+function draw(id, type, columns, rows, label) {
+  if (charts[id]) charts[id].destroy();
+  charts[id] = new Chart($(id), {
+    type,
+    data: { labels: rows.map(r => r[0]), datasets: [{ label: label || columns[1], data: rows.map(r => r[1]),
+      backgroundColor: "#2f5de4", borderColor: "#2f5de4", tension: .25 }] },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } },
+  });
+}
+
+async function loadDatasets(select) {
+  const list = await api("/api/datasets");
+  $("dataset").innerHTML = list.map(d => `<option value="${esc(d.name)}">${esc(d.name)} (${d.row_count} rows)</option>`).join("");
+  if (select) $("dataset").value = select;
+  if (list.length) loadOverview();
+}
+
+async function loadOverview() {
+  const o = await api(`/api/datasets/${$("dataset").value}/overview`);
+  $("kpis").innerHTML = o.kpis.map(k => `<div class="kpi"><span class="muted">${esc(k.label)}</span><b>${Number(k.value).toLocaleString()}</b></div>`).join("");
+  if (o.chart) draw("overviewChart", "bar", o.chart.columns, o.chart.rows, o.chart.title);
+}
+
+function renderAnswer(r) {
+  const head = r.columns.map(c => `<th>${esc(c)}</th>`).join("");
+  const body = r.rows.map(row => `<tr>${row.map(v => `<td>${esc(typeof v === "number" ? v.toLocaleString() : v)}</td>`).join("")}</tr>`).join("");
+  $("answer").innerHTML = `
+    <p><b>Insight:</b> ${esc(r.insight)}</p>
+    ${r.chart !== "table" ? '<div class="chartbox"><canvas id="answerChart"></canvas></div>' : ""}
+    <details><summary class="muted">SQL used</summary><pre>${esc(r.sql)}</pre></details>
+    <div class="scroll"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  if (r.chart !== "table") draw("answerChart", r.chart, r.columns, r.rows);
+}
+
+async function ask(q) {
+  if (!q.trim()) return;
+  $("ask").disabled = true; $("ask").textContent = "Thinking…";
+  try {
+    renderAnswer(await api("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ question: q, dataset: $("dataset").value }) }));
+  } catch (e) {
+    $("answer").innerHTML = `<p class="error">${esc(e.message)}</p>`;
+  } finally { $("ask").disabled = false; $("ask").textContent = "Ask"; }
+}
+
+$("ask").onclick = () => ask($("question").value);
+$("question").onkeydown = (e) => { if (e.key === "Enter") ask($("question").value); };
+$("dataset").onchange = loadOverview;
+$("examples").innerHTML = EXAMPLES.map(e => `<button class="ghost">${esc(e)}</button>`).join("");
+$("examples").onclick = (e) => { if (e.target.tagName === "BUTTON") { $("question").value = e.target.textContent; ask(e.target.textContent); } };
+
+$("upload").onclick = async () => {
+  const f = $("file").files[0];
+  if (!f) { $("uploadMsg").textContent = "Choose a CSV first."; return; }
+  const fd = new FormData(); fd.append("file", f);
+  try {
+    const r = await api("/api/upload", { method: "POST", body: fd });
+    $("uploadMsg").textContent = `Loaded ${r.name} (${r.rows} rows)`;
+    loadDatasets(r.name);
+  } catch (e) { $("uploadMsg").textContent = e.message; }
+};
+
+(async () => {
+  const h = await api("/health");
+  $("mode").textContent = h.ai_mode === "claude" ? "AI: Claude" : "AI: fallback (no API key)";
+  loadDatasets();
+})();
+</script>
+</body>
+</html>

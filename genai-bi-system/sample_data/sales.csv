@@ -1,0 +1,401 @@
+order_date,region,category,product,units,revenue,cost,profit
+2025-11-04,East,Laptops,Pro Laptop 15,4,4368.53,2437.0,1931.53
+2025-11-04,East,Phones,Phone Mini,4,1934.02,1192.8,741.22
+2025-11-05,West,Accessories,Headphones,12,1882.87,1464.22,418.65
+2025-11-07,West,Laptops,Air Laptop 13,9,8477.64,4699.03,3778.61
+2025-11-07,West,Phones,Phone Mini,2,965.03,618.15,346.88
+2025-11-09,West,Phones,Phone Mini,5,2307.15,1459.19,847.96
+2025-11-11,East,Phones,Phone X,10,7752.12,5600.15,2151.97
+2025-11-12,North,Phones,Phone Mini,1,505.94,351.41,154.53
+2025-11-15,South,Laptops,Pro Laptop 15,11,13406.62,8260.68,5145.94
+2025-11-16,East,Laptops,Air Laptop 13,1,827.04,503.67,323.37
+2025-11-19,East,Phones,Phone X,1,814.93,628.68,186.25
+2025-11-20,East,Phones,Phone X,4,3271.96,2176.1,1095.86
+2025-11-21,East,Laptops,Air Laptop 13,8,7045.99,4949.47,2096.52
+2025-11-22,North,Accessories,USB-C Hub,10,629.83,389.64,240.19
+2025-11-23,South,Phones,Phone Mini,12,6222.09,4015.16,2206.93
+2025-11-24,South,Laptops,Air Laptop 13,10,8173.96,4913.41,3260.55
+2025-11-24,West,Laptops,Pro Laptop 15,12,13679.37,9143.78,4535.59
+2025-11-25,North,Laptops,Air Laptop 13,11,10088.94,6701.86,3387.08
+2025-11-26,East,Accessories,Wireless Mouse,2,77.48,58.14,19.34
+2025-11-26,South,Accessories,Headphones,1,156.8,122.55,34.25
+2025-11-26,South,Phones,Phone Mini,10,4813.6,3805.98,1007.62
+2025-11-27,North,Phones,Phone Mini,11,5449.1,3050.88,2398.22
+2025-11-27,South,Phones,Phone Mini,6,2746.62,1859.06,887.56
+2025-11-27,West,Laptops,Air Laptop 13,9,7428.08,4203.47,3224.61
+2025-11-27,West,Laptops,Pro Laptop 15,10,10889.57,6211.36,4678.21
+2025-11-30,North,Phones,Phone Mini,2,996.7,791.72,204.98
+2025-12-02,East,Accessories,Wireless Mouse,8,302.73,197.18,105.55
+2025-12-02,South,Phones,Phone X,6,5027.32,2871.01,2156.31
+2025-12-02,West,Accessories,Wireless Mouse,9,335.2,211.6,123.6
+2025-12-02,West,Phones,Phone Mini,4,2090.46,1645.72,444.74
+2025-12-06,North,Phones,Phone Mini,6,3120.41,2112.31,1008.1
+2025-12-06,South,Accessories,Wireless Mouse,3,119.88,94.31,25.57
+2025-12-06,South,Accessories,Wireless Mouse,11,452.88,294.8,158.08
+2025-12-06,West,Laptops,Pro Laptop 15,2,2428.6,1466.35,962.25
+2025-12-07,East,Laptops,Pro Laptop 15,5,5935.54,4487.62,1447.92
+2025-12-07,East,Phones,Phone X,7,5055.74,3944.95,1110.79
+2025-12-07,South,Accessories,Wireless Mouse,5,200.07,120.75,79.32
+2025-12-07,South,Accessories,Wireless Mouse,5,203.63,143.82,59.81
+2025-12-08,North,Accessories,Wireless Mouse,9,338.32,265.01,73.31
+2025-12-08,South,Laptops,Air Laptop 13,3,2583.9,1927.52,656.38
+2025-12-09,North,Phones,Phone Mini,6,2980.47,1935.43,1045.04
+2025-12-09,South,Accessories,Headphones,7,1002.22,751.94,250.28
+2025-12-10,West,Phones,Phone X,10,7488.57,5681.3,1807.27
+2025-12-11,East,Phones,Phone X,11,9182.38,5680.34,3502.04
+2025-12-12,East,Phones,Phone X,1,758.24,435.81,322.43
+2025-12-13,East,Accessories,USB-C Hub,3,185.4,110.39,75.01
+2025-12-16,North,Phones,Phone X,4,3089.12,2008.28,1080.84
+2025-12-17,East,Phones,Phone X,5,3921.94,2602.98,1318.96
+2025-12-17,North,Accessories,Wireless Mouse,11,438.21,347.4,90.81
+2025-12-17,South,Phones,Phone X,11,8849.14,5089.38,3759.76
+2025-12-17,West,Laptops,Pro Laptop 15,3,3578.82,2677.03,901.79
+2025-12-18,North,Laptops,Air Laptop 13,4,3675.54,2156.95,1518.59
+2025-12-18,North,Phones,Phone Mini,7,3440.17,1940.35,1499.82
+2025-12-19,North,Laptops,Air Laptop 13,6,5203.1,3469.2,1733.9
+2025-12-20,East,Accessories,Headphones,6,919.59,633.68,285.91
+2025-12-22,South,Laptops,Air Laptop 13,4,3434.88,2148.75,1286.13
+2025-12-23,East,Laptops,Pro Laptop 15,6,7078.56,4949.55,2129.01
+2025-12-23,North,Accessories,USB-C Hub,11,653.44,379.17,274.27
+2025-12-23,North,Laptops,Air Laptop 13,8,6997.01,4444.34,2552.67
+2025-12-25,West,Phones,Phone X,3,2449.48,1773.37,676.11
+2025-12-28,East,Phones,Phone Mini,3,1452.09,1144.91,307.18
+2025-12-28,North,Laptops,Air Laptop 13,10,9134.17,7041.89,2092.28
+2025-12-29,East,Phones,Phone X,11,9018.43,6083.78,2934.65
+2025-12-30,North,Phones,Phone X,10,8355.04,5149.77,3205.27
+2025-12-30,South,Accessories,Wireless Mouse,6,227.23,150.84,76.39
+2025-12-30,West,Laptops,Pro Laptop 15,9,9939.78,6594.16,3345.62
+2026-01-06,South,Phones,Phone X,2,1564.34,979.33,585.01
+2026-01-07,East,Laptops,Air Laptop 13,4,3557.98,1970.93,1587.05
+2026-01-07,South,Laptops,Air Laptop 13,6,5465.46,3245.99,2219.47
+2026-01-08,East,Phones,Phone X,2,1618.18,952.88,665.3
+2026-01-08,West,Laptops,Air Laptop 13,9,7701.33,5473.33,2228.0
+2026-01-10,West,Phones,Phone Mini,6,2753.99,1857.14,896.85
+2026-01-11,East,Accessories,USB-C Hub,4,245.37,179.83,65.54
+2026-01-11,West,Laptops,Air Laptop 13,1,858.72,595.15,263.57
+2026-01-14,South,Laptops,Pro Laptop 15,5,6225.66,4159.45,2066.21
+2026-01-16,South,Accessories,Headphones,3,427.14,300.39,126.75
+2026-01-17,East,Phones,Phone X,8,6184.52,3869.69,2314.83
+2026-01-17,West,Laptops,Air Laptop 13,2,1888.36,1094.52,793.84
+2026-01-18,North,Phones,Phone X,9,7509.78,5862.2,1647.58
+2026-01-21,East,Accessories,USB-C Hub,8,450.66,275.72,174.94
+2026-01-22,East,Laptops,Pro Laptop 15,5,5446.96,3650.27,1796.69
+2026-01-23,West,Laptops,Air Laptop 13,1,834.21,651.62,182.59
+2026-01-23,West,Phones,Phone X,10,7230.81,4540.87,2689.94
+2026-01-24,North,Phones,Phone X,10,7840.95,6090.32,1750.63
+2026-01-24,West,Phones,Phone X,7,5262.77,3926.12,1336.65
+2026-01-25,North,Phones,Phone Mini,8,3728.25,2424.33,1303.92
+2026-01-26,East,Accessories,Wireless Mouse,5,195.46,138.43,57.03
+2026-01-26,North,Laptops,Air Laptop 13,3,2801.34,1920.41,880.93
+2026-01-27,North,Accessories,Headphones,12,1863.54,1182.24,681.3
+2026-01-27,South,Accessories,Headphones,12,1787.33,1358.89,428.44
+2026-01-27,South,Laptops,Pro Laptop 15,10,12367.51,8718.2,3649.31
+2026-01-29,East,Laptops,Air Laptop 13,9,8144.96,5498.38,2646.58
+2026-01-29,North,Accessories,Headphones,7,1075.25,729.9,345.35
+2026-01-29,West,Phones,Phone X,1,839.66,545.15,294.51
+2026-01-30,West,Accessories,USB-C Hub,8,486.32,359.86,126.46
+2026-01-31,East,Laptops,Pro Laptop 15,9,9961.21,5956.63,4004.58
+2026-01-31,West,Phones,Phone X,4,3161.78,2333.59,828.19
+2026-02-01,West,Accessories,USB-C Hub,11,674.61,534.47,140.14
+2026-02-02,East,Phones,Phone X,6,4894.44,3108.38,1786.06
+2026-02-04,North,Accessories,USB-C Hub,1,54.08,37.42,16.66
+2026-02-04,South,Accessories,Headphones,7,1007.3,739.71,267.59
+2026-02-05,East,Accessories,Headphones,11,1623.32,1087.38,535.94
+2026-02-07,East,Laptops,Air Laptop 13,5,4539.09,3604.73,934.36
+2026-02-07,East,Laptops,Air Laptop 13,9,7652.68,6010.2,1642.48
+2026-02-08,West,Phones,Phone Mini,8,4061.66,3024.03,1037.63
+2026-02-11,South,Laptops,Pro Laptop 15,4,4410.88,3164.21,1246.67
+2026-02-13,South,Phones,Phone Mini,7,3174.0,2431.35,742.65
+2026-02-13,South,Phones,Phone X,8,6573.25,3767.23,2806.02
+2026-02-15,South,Accessories,Wireless Mouse,5,199.81,117.74,82.07
+2026-02-16,West,Phones,Phone Mini,8,3865.07,2778.63,1086.44
+2026-02-17,South,Accessories,USB-C Hub,7,433.74,308.26,125.48
+2026-02-18,North,Phones,Phone Mini,4,1867.96,1091.62,776.34
+2026-02-19,North,Laptops,Air Laptop 13,2,1829.57,1114.96,714.61
+2026-02-20,West,Laptops,Pro Laptop 15,9,10042.12,7154.72,2887.4
+2026-02-21,West,Phones,Phone Mini,1,506.91,299.03,207.88
+2026-02-23,West,Laptops,Pro Laptop 15,5,5816.7,4244.87,1571.83
+2026-02-24,South,Laptops,Air Laptop 13,1,889.42,540.35,349.07
+2026-02-25,North,Laptops,Pro Laptop 15,11,12262.4,7750.64,4511.76
+2026-02-26,East,Laptops,Air Laptop 13,7,5923.02,3570.07,2352.95
+2026-02-28,South,Laptops,Air Laptop 13,5,4356.05,3304.18,1051.87
+2026-03-01,East,Phones,Phone X,11,8404.88,6517.35,1887.53
+2026-03-01,North,Laptops,Pro Laptop 15,5,5577.54,3907.62,1669.92
+2026-03-03,West,Laptops,Pro Laptop 15,10,12504.51,7145.24,5359.27
+2026-03-04,North,Laptops,Air Laptop 13,12,9953.85,6626.84,3327.01
+2026-03-04,North,Laptops,Pro Laptop 15,2,2373.82,1570.54,803.28
+2026-03-04,West,Laptops,Air Laptop 13,1,816.82,550.31,266.51
+2026-03-05,East,Accessories,Headphones,12,1675.22,1304.63,370.59
+2026-03-05,East,Laptops,Pro Laptop 15,11,12341.02,7096.7,5244.32
+2026-03-06,East,Phones,Phone Mini,3,1448.59,993.45,455.14
+2026-03-06,North,Accessories,Wireless Mouse,7,270.44,185.24,85.2
+2026-03-06,South,Phones,Phone X,8,6157.86,4356.32,1801.54
+2026-03-08,East,Laptops,Pro Laptop 15,9,10446.75,6847.54,3599.21
+2026-03-09,North,Laptops,Pro Laptop 15,11,12718.68,7875.03,4843.65
+2026-03-09,South,Laptops,Pro Laptop 15,12,13375.98,7756.58,5619.4
+2026-03-10,North,Phones,Phone X,2,1536.17,873.34,662.83
+2026-03-14,East,Laptops,Air Laptop 13,4,3383.43,1971.59,1411.84
+2026-03-16,South,Accessories,Headphones,7,1096.89,858.02,238.87
+2026-03-16,West,Accessories,Headphones,10,1401.2,788.65,612.55
+2026-03-16,West,Laptops,Pro Laptop 15,12,14172.56,8725.84,5446.72
+2026-03-18,East,Phones,Phone X,2,1480.13,916.19,563.94
+2026-03-19,North,Accessories,Headphones,9,1259.47,794.81,464.66
+2026-03-19,North,Laptops,Pro Laptop 15,11,13712.66,10624.95,3087.71
+2026-03-20,West,Phones,Phone Mini,9,4104.39,2412.18,1692.21
+2026-03-21,West,Laptops,Pro Laptop 15,9,10193.26,8012.13,2181.13
+2026-03-22,North,Laptops,Pro Laptop 15,9,10126.06,6011.08,4114.98
+2026-03-23,North,Accessories,Wireless Mouse,7,287.5,228.17,59.33
+2026-03-23,North,Phones,Phone Mini,2,970.55,715.54,255.01
+2026-03-23,North,Phones,Phone Mini,11,5759.45,3939.77,1819.68
+2026-03-25,East,Phones,Phone Mini,9,4487.89,2814.38,1673.51
+2026-03-25,South,Accessories,USB-C Hub,10,592.19,423.41,168.78
+2026-03-26,East,Phones,Phone X,6,4378.68,3134.71,1243.97
+2026-03-27,East,Accessories,Wireless Mouse,2,77.17,59.47,17.7
+2026-03-27,East,Phones,Phone X,11,8358.14,4857.07,3501.07
+2026-03-27,North,Phones,Phone Mini,3,1392.73,841.8,550.93
+2026-03-27,South,Laptops,Air Laptop 13,4,3583.77,2527.36,1056.41
+2026-03-28,East,Accessories,Wireless Mouse,12,482.76,303.78,178.98
+2026-03-30,South,Accessories,Headphones,11,1606.52,1114.88,491.64
+2026-03-30,South,Phones,Phone X,10,7623.38,5280.46,2342.92
+2026-03-30,West,Laptops,Pro Laptop 15,5,6036.26,4380.8,1655.46
+2026-04-01,South,Accessories,USB-C Hub,2,116.43,66.23,50.2
+2026-04-01,South,Laptops,Pro Laptop 15,11,12546.79,9304.41,3242.38
+2026-04-02,North,Accessories,USB-C Hub,5,295.59,167.03,128.56
+2026-04-03,East,Accessories,USB-C Hub,11,634.43,412.76,221.67
+2026-04-03,East,Phones,Phone X,8,6061.62,4795.61,1266.01
+2026-04-03,South,Laptops,Pro Laptop 15,6,7029.46,4079.48,2949.98
+2026-04-04,East,Laptops,Air Laptop 13,8,6595.19,4256.15,2339.04
+2026-04-04,South,Accessories,Headphones,10,1352.57,964.95,387.62
+2026-04-05,West,Laptops,Pro Laptop 15,4,5012.7,2904.0,2108.7
+2026-04-07,North,Phones,Phone X,6,4471.26,2738.12,1733.14
+2026-04-08,North,Accessories,Headphones,11,1582.01,1105.45,476.56
+2026-04-08,North,Accessories,USB-C Hub,11,672.37,506.49,165.88
+2026-04-08,South,Accessories,USB-C Hub,9,524.35,293.19,231.16
+2026-04-09,South,Phones,Phone Mini,8,4139.77,2744.14,1395.63
+2026-04-13,East,Laptops,Air Laptop 13,1,919.38,532.11,387.27
+2026-04-13,North,Accessories,USB-C Hub,7,386.24,248.21,138.03
+2026-04-13,North,Laptops,Air Laptop 13,2,1692.22,1035.6,656.62
+2026-04-14,East,Accessories,Wireless Mouse,2,73.51,51.9,21.61
+2026-04-14,North,Phones,Phone X,2,1596.55,970.79,625.76
+2026-04-15,East,Accessories,Wireless Mouse,6,250.11,170.01,80.1
+2026-04-15,North,Accessories,USB-C Hub,1,54.82,43.33,11.49
+2026-04-15,West,Laptops,Pro Laptop 15,5,6193.47,3784.0,2409.47
+2026-04-16,South,Phones,Phone Mini,7,3341.63,2616.55,725.08
+2026-04-17,West,Accessories,Headphones,6,835.63,492.88,342.75
+2026-04-18,West,Accessories,Headphones,7,1095.28,774.03,321.25
+2026-04-19,South,Accessories,USB-C Hub,8,448.69,292.21,156.48
+2026-04-19,South,Phones,Phone X,1,731.83,443.12,288.71
+2026-04-20,South,Accessories,USB-C Hub,6,347.77,228.71,119.06
+2026-04-20,South,Laptops,Pro Laptop 15,10,11169.37,8460.29,2709.08
+2026-04-20,West,Laptops,Air Laptop 13,3,2730.2,1878.16,852.04
+2026-04-21,South,Phones,Phone Mini,11,5398.22,3635.58,1762.64
+2026-04-23,North,Accessories,USB-C Hub,3,167.37,113.36,54.01
+2026-04-23,West,Phones,Phone X,3,2473.15,1710.38,762.77
+2026-04-24,North,Accessories,Headphones,10,1439.26,1069.93,369.33
+2026-04-24,North,Phones,Phone X,4,3339.46,2117.71,1221.75
+2026-04-26,East,Phones,Phone X,5,4006.93,2797.97,1208.96
+2026-04-26,North,Laptops,Air Laptop 13,2,1699.77,1326.05,373.72
+2026-04-26,West,Accessories,USB-C Hub,11,689.24,498.03,191.21
+2026-04-27,East,Accessories,USB-C Hub,11,630.69,426.66,204.03
+2026-04-27,East,Phones,Phone Mini,12,5831.17,3501.72,2329.45
+2026-04-28,East,Phones,Phone Mini,6,3001.56,2294.49,707.07
+2026-04-28,West,Laptops,Air Laptop 13,1,863.52,555.67,307.85
+2026-04-29,South,Laptops,Pro Laptop 15,11,11959.71,6670.62,5289.09
+2026-05-01,South,Accessories,USB-C Hub,10,607.45,474.69,132.76
+2026-05-01,South,Phones,Phone Mini,2,955.96,622.81,333.15
+2026-05-02,East,Laptops,Air Laptop 13,4,3635.79,2570.74,1065.05
+2026-05-04,West,Phones,Phone X,3,2191.43,1441.4,750.03
+2026-05-05,East,Phones,Phone X,10,7384.13,4891.84,2492.29
+2026-05-05,North,Accessories,Headphones,2,290.34,175.77,114.57
+2026-05-06,North,Phones,Phone X,11,9135.42,6447.68,2687.74
+2026-05-08,South,Accessories,USB-C Hub,2,121.09,68.99,52.1
+2026-05-09,North,Phones,Phone X,11,8272.41,6486.92,1785.49
+2026-05-10,East,Phones,Phone X,10,7365.23,4726.54,2638.69
+2026-05-10,North,Phones,Phone Mini,7,3556.59,2559.76,996.83
+2026-05-11,South,Phones,Phone Mini,7,3347.21,2412.28,934.93
+2026-05-11,South,Phones,Phone X,4,3134.96,2167.77,967.19
+2026-05-11,West,Laptops,Air Laptop 13,2,1644.63,939.64,704.99
+2026-05-11,West,Laptops,Air Laptop 13,11,9634.46,5314.88,4319.58
+2026-05-14,West,Laptops,Air Laptop 13,6,5349.02,4021.3,1327.72
+2026-05-14,West,Phones,Phone X,8,6073.77,4496.46,1577.31
+2026-05-15,North,Accessories,Headphones,5,726.04,509.21,216.83
+2026-05-17,South,Accessories,Wireless Mouse,5,181.33,119.5,61.83
+2026-05-17,South,Laptops,Air Laptop 13,7,6036.47,3447.88,2588.59
+2026-05-19,North,Phones,Phone X,11,8430.68,5423.67,3007.01
+2026-05-19,West,Phones,Phone Mini,2,913.73,717.95,195.78
+2026-05-21,West,Accessories,Headphones,5,741.79,502.06,239.73
+2026-05-22,North,Phones,Phone Mini,4,1899.92,1124.82,775.1
+2026-05-22,North,Phones,Phone X,5,3625.24,2859.69,765.55
+2026-05-23,South,Accessories,Wireless Mouse,2,79.11,59.94,19.17
+2026-05-25,North,Phones,Phone X,8,6443.91,4258.72,2185.19
+2026-05-25,South,Accessories,Wireless Mouse,3,125.67,84.12,41.55
+2026-05-26,East,Phones,Phone X,7,5082.97,3509.56,1573.41
+2026-05-27,East,Accessories,Wireless Mouse,5,199.92,128.4,71.52
+2026-05-28,East,Accessories,USB-C Hub,8,478.84,353.85,124.99
+2026-05-30,North,Accessories,USB-C Hub,5,299.82,194.92,104.9
+2026-05-31,South,Phones,Phone Mini,1,491.75,343.2,148.55
+2026-06-01,North,Laptops,Pro Laptop 15,7,8050.74,5977.26,2073.48
+2026-06-02,West,Accessories,USB-C Hub,12,742.19,524.96,217.23
+2026-06-03,South,Accessories,Headphones,12,1767.46,1238.66,528.8
+2026-06-05,North,Phones,Phone X,9,7553.65,5919.39,1634.26
+2026-06-05,West,Phones,Phone X,8,6711.07,4495.13,2215.94
+2026-06-06,East,Accessories,Headphones,6,857.49,568.89,288.6
+2026-06-06,South,Laptops,Pro Laptop 15,11,12175.0,7504.77,4670.23
+2026-06-10,South,Laptops,Air Laptop 13,2,1828.49,1140.69,687.8
+2026-06-12,West,Phones,Phone Mini,7,3327.99,1985.83,1342.16
+2026-06-13,East,Laptops,Air Laptop 13,12,10212.63,6644.61,3568.02
+2026-06-13,South,Accessories,USB-C Hub,2,108.52,76.78,31.74
+2026-06-13,West,Laptops,Air Laptop 13,6,5407.85,3295.45,2112.4
+2026-06-14,East,Phones,Phone Mini,8,3722.41,2611.89,1110.52
+2026-06-14,South,Laptops,Air Laptop 13,1,907.53,592.16,315.37
+2026-06-14,West,Phones,Phone Mini,3,1442.92,867.16,575.76
+2026-06-15,West,Accessories,Headphones,9,1301.42,1010.83,290.59
+2026-06-16,East,Laptops,Air Laptop 13,11,9425.93,5337.29,4088.64
+2026-06-17,South,Phones,Phone Mini,8,4063.41,2832.8,1230.61
+2026-06-17,West,Accessories,Headphones,7,971.25,641.97,329.28
+2026-06-17,West,Accessories,USB-C Hub,6,341.95,253.29,88.66
+2026-06-19,East,Accessories,USB-C Hub,7,378.28,228.37,149.91
+2026-06-19,South,Accessories,Headphones,4,568.94,380.57,188.37
+2026-06-19,South,Phones,Phone Mini,3,1547.54,1153.02,394.52
+2026-06-21,East,Laptops,Air Laptop 13,8,7089.02,4889.29,2199.73
+2026-06-21,East,Phones,Phone Mini,12,5485.58,3602.33,1883.25
+2026-06-21,North,Phones,Phone X,6,4544.38,2867.94,1676.44
+2026-06-21,West,Laptops,Air Laptop 13,5,4268.21,3382.75,885.46
+2026-06-22,South,Accessories,Wireless Mouse,7,260.01,181.97,78.04
+2026-06-22,West,Phones,Phone X,12,8983.88,5801.28,3182.6
+2026-06-23,North,Phones,Phone X,1,774.99,619.69,155.3
+2026-06-25,North,Laptops,Pro Laptop 15,8,9803.55,7489.83,2313.72
+2026-06-27,North,Accessories,USB-C Hub,6,333.06,233.75,99.31
+2026-06-30,South,Laptops,Pro Laptop 15,1,1253.61,995.97,257.64
+2026-06-30,West,Laptops,Air Laptop 13,7,5840.08,3409.77,2430.31
+2026-07-03,West,Laptops,Air Laptop 13,12,11321.92,7284.59,4037.33
+2026-07-06,South,Laptops,Air Laptop 13,5,4356.14,3145.8,1210.34
+2026-07-06,West,Laptops,Air Laptop 13,5,4687.35,3422.82,1264.53
+2026-07-08,West,Laptops,Air Laptop 13,7,6128.93,3966.73,2162.2
+2026-07-09,East,Accessories,Headphones,12,1752.46,1037.56,714.9
+2026-07-12,North,Laptops,Pro Laptop 15,9,11283.87,7142.67,4141.2
+2026-07-13,East,Accessories,Wireless Mouse,4,155.07,95.13,59.94
+2026-07-14,South,Accessories,Headphones,1,149.22,103.52,45.7
+2026-07-14,West,Phones,Phone Mini,1,456.75,296.12,160.63
+2026-07-15,North,Accessories,USB-C Hub,1,54.88,33.37,21.51
+2026-07-15,South,Laptops,Pro Laptop 15,11,12470.92,8851.08,3619.84
+2026-07-15,West,Accessories,USB-C Hub,8,437.79,245.15,192.64
+2026-07-16,South,Accessories,Wireless Mouse,1,41.76,23.8,17.96
+2026-07-17,West,Phones,Phone Mini,4,2042.64,1292.32,750.32
+2026-07-19,South,Accessories,USB-C Hub,7,430.59,342.35,88.24
+2026-07-21,East,Phones,Phone Mini,2,1020.42,745.52,274.9
+2026-07-21,West,Laptops,Air Laptop 13,2,1875.53,1135.65,739.88
+2026-07-22,West,Laptops,Air Laptop 13,7,5721.22,3888.2,1833.02
+2026-07-25,South,Phones,Phone X,5,3863.92,2814.43,1049.49
+2026-07-25,West,Phones,Phone Mini,8,3658.57,2672.58,985.99
+2026-07-27,South,Laptops,Pro Laptop 15,11,11976.06,6605.95,5370.11
+2026-07-27,West,Phones,Phone Mini,7,3228.34,2079.42,1148.92
+2026-07-28,East,Phones,Phone Mini,3,1453.42,993.1,460.32
+2026-07-28,North,Phones,Phone Mini,10,4555.31,3612.79,942.52
+2026-07-28,South,Phones,Phone Mini,2,1037.59,599.78,437.81
+2026-07-30,South,Accessories,Wireless Mouse,6,228.64,180.52,48.12
+2026-07-31,South,Phones,Phone X,4,3101.1,1825.87,1275.23
+2026-08-01,East,Accessories,Headphones,7,1030.62,770.57,260.05
+2026-08-02,East,Laptops,Air Laptop 13,2,1769.05,1339.79,429.26
+2026-08-03,North,Accessories,Wireless Mouse,4,160.33,112.06,48.27
+2026-08-04,West,Phones,Phone Mini,3,1407.82,1064.55,343.27
+2026-08-05,South,Laptops,Pro Laptop 15,4,4774.44,3725.17,1049.27
+2026-08-07,East,Phones,Phone Mini,2,912.01,652.3,259.71
+2026-08-07,North,Laptops,Air Laptop 13,10,8845.91,5815.71,3030.2
+2026-08-10,West,Laptops,Pro Laptop 15,1,1153.53,833.24,320.29
+2026-08-10,West,Laptops,Pro Laptop 15,2,2271.34,1816.84,454.5
+2026-08-11,East,Laptops,Pro Laptop 15,11,13631.88,10056.5,3575.38
+2026-08-11,East,Phones,Phone X,7,5463.57,4049.06,1414.51
+2026-08-11,South,Laptops,Pro Laptop 15,7,8397.81,5414.79,2983.02
+2026-08-11,West,Laptops,Pro Laptop 15,5,5475.49,3230.97,2244.52
+2026-08-12,South,Laptops,Pro Laptop 15,2,2246.89,1464.09,782.8
+2026-08-14,West,Accessories,USB-C Hub,5,275.48,198.11,77.37
+2026-08-15,East,Laptops,Air Laptop 13,5,4525.23,2731.62,1793.61
+2026-08-15,East,Phones,Phone Mini,9,4407.74,2852.27,1555.47
+2026-08-15,South,Accessories,USB-C Hub,3,164.95,121.27,43.68
+2026-08-15,South,Laptops,Pro Laptop 15,2,2500.22,1807.05,693.17
+2026-08-17,West,Laptops,Pro Laptop 15,4,4472.22,3430.32,1041.9
+2026-08-19,East,Accessories,Headphones,7,997.98,672.22,325.76
+2026-08-19,East,Laptops,Air Laptop 13,9,8085.35,5831.25,2254.1
+2026-08-20,East,Accessories,Wireless Mouse,11,421.13,246.24,174.89
+2026-08-20,East,Phones,Phone X,8,6613.44,4539.43,2074.01
+2026-08-20,South,Accessories,USB-C Hub,4,244.25,183.65,60.6
+2026-08-21,North,Accessories,Wireless Mouse,3,113.91,77.47,36.44
+2026-08-22,East,Phones,Phone Mini,1,523.35,373.96,149.39
+2026-08-22,West,Phones,Phone Mini,1,520.71,325.26,195.45
+2026-08-22,West,Phones,Phone Mini,12,5976.13,3719.42,2256.71
+2026-08-23,North,Laptops,Pro Laptop 15,1,1199.03,891.2,307.83
+2026-08-23,South,Accessories,Headphones,6,841.98,647.54,194.44
+2026-08-24,East,Accessories,Wireless Mouse,10,364.92,260.68,104.24
+2026-08-24,West,Accessories,Headphones,1,151.83,85.68,66.15
+2026-08-26,West,Phones,Phone Mini,4,2099.2,1227.16,872.04
+2026-08-27,East,Phones,Phone Mini,2,1001.23,668.69,332.54
+2026-08-28,North,Laptops,Pro Laptop 15,6,7316.32,5466.47,1849.85
+2026-08-28,West,Accessories,Headphones,3,464.77,331.72,133.05
+2026-08-30,North,Laptops,Air Laptop 13,9,7380.14,4911.01,2469.13
+2026-08-31,West,Accessories,Wireless Mouse,11,446.66,248.67,197.99
+2026-09-01,West,Accessories,Wireless Mouse,8,293.13,183.55,109.58
+2026-09-02,East,Laptops,Air Laptop 13,7,6233.11,4157.56,2075.55
+2026-09-02,North,Phones,Phone Mini,12,6107.79,4025.64,2082.15
+2026-09-02,South,Phones,Phone X,3,2225.1,1609.22,615.88
+2026-09-03,East,Phones,Phone Mini,1,458.39,293.71,164.68
+2026-09-06,West,Laptops,Air Laptop 13,4,3611.25,2756.21,855.04
+2026-09-07,West,Accessories,Headphones,4,609.81,393.39,216.42
+2026-09-08,East,Accessories,Headphones,5,678.26,419.38,258.88
+2026-09-08,West,Accessories,Wireless Mouse,9,363.37,214.7,148.67
+2026-09-09,East,Laptops,Pro Laptop 15,11,13511.23,10502.91,3008.32
+2026-09-09,West,Phones,Phone Mini,4,1960.2,1229.76,730.44
+2026-09-10,North,Accessories,Headphones,1,150.03,103.32,46.71
+2026-09-11,North,Accessories,Headphones,7,1017.88,700.89,316.99
+2026-09-11,South,Accessories,Wireless Mouse,9,358.61,250.29,108.32
+2026-09-12,East,Accessories,USB-C Hub,7,412.52,226.93,185.59
+2026-09-12,East,Accessories,USB-C Hub,8,463.36,339.53,123.83
+2026-09-12,West,Phones,Phone Mini,1,501.77,303.23,198.54
+2026-09-16,East,Accessories,Headphones,2,275.79,158.35,117.44
+2026-09-17,East,Phones,Phone X,4,3008.19,1753.03,1255.16
+2026-09-17,West,Accessories,USB-C Hub,9,526.15,417.28,108.87
+2026-09-18,East,Laptops,Pro Laptop 15,5,6109.75,3411.32,2698.43
+2026-09-19,West,Laptops,Pro Laptop 15,12,13286.22,8033.91,5252.31
+2026-09-20,West,Accessories,USB-C Hub,2,113.93,78.55,35.38
+2026-09-21,West,Phones,Phone Mini,8,3736.88,2571.94,1164.94
+2026-09-24,North,Laptops,Pro Laptop 15,12,13554.06,8211.09,5342.97
+2026-09-27,South,Accessories,USB-C Hub,9,515.31,330.13,185.18
+2026-09-28,South,Laptops,Pro Laptop 15,12,13486.85,8005.97,5480.88
+2026-09-28,South,Phones,Phone X,1,808.39,604.43,203.96
+2026-09-29,West,Phones,Phone X,2,1446.22,862.69,583.53
+2026-09-29,West,Phones,Phone X,3,2176.32,1217.22,959.1
+2026-10-01,South,Phones,Phone X,3,2517.42,1631.95,885.47
+2026-10-03,North,Phones,Phone X,2,1524.03,1050.16,473.87
+2026-10-03,West,Accessories,USB-C Hub,3,179.47,100.7,78.77
+2026-10-04,West,Accessories,USB-C Hub,8,478.32,266.8,211.52
+2026-10-05,North,Phones,Phone Mini,10,4831.53,2987.29,1844.24
+2026-10-07,North,Accessories,Wireless Mouse,9,376.63,213.52,163.11
+2026-10-08,West,Laptops,Air Laptop 13,5,4507.39,2657.08,1850.31
+2026-10-09,West,Accessories,Wireless Mouse,5,184.78,134.02,50.76
+2026-10-10,West,Laptops,Air Laptop 13,6,5567.62,4372.15,1195.47
+2026-10-11,East,Phones,Phone X,3,2329.38,1660.56,668.82
+2026-10-11,North,Accessories,Headphones,2,272.73,199.65,73.08
+2026-10-11,South,Phones,Phone X,11,8319.74,5101.42,3218.32
+2026-10-13,East,Accessories,Headphones,7,1097.34,824.26,273.08
+2026-10-13,North,Accessories,Headphones,2,296.57,165.47,131.1
+2026-10-13,North,Accessories,USB-C Hub,7,425.6,248.97,176.63
+2026-10-13,West,Accessories,Headphones,11,1683.9,1037.43,646.47
+2026-10-15,East,Accessories,Headphones,11,1729.17,1090.76,638.41
+2026-10-15,North,Laptops,Air Laptop 13,2,1862.7,1231.94,630.76
+2026-10-15,North,Laptops,Pro Laptop 15,10,12506.77,7222.33,5284.44
+2026-10-20,South,Laptops,Air Laptop 13,6,5357.85,3240.33,2117.52
+2026-10-20,South,Phones,Phone Mini,8,4075.76,2336.48,1739.28
+2026-10-22,East,Phones,Phone X,1,758.92,428.05,330.87
+2026-10-22,South,Phones,Phone X,2,1472.57,837.18,635.39
+2026-10-22,West,Laptops,Pro Laptop 15,2,2309.35,1461.17,848.18
+2026-10-23,North,Laptops,Air Laptop 13,11,10139.67,5781.18,4358.49
+2026-10-23,North,Phones,Phone Mini,7,3278.09,2340.6,937.49
+2026-10-23,West,Phones,Phone X,3,2182.72,1624.05,558.67
+2026-10-26,East,Laptops,Pro Laptop 15,7,8128.96,4935.28,3193.68
+2026-10-26,East,Laptops,Pro Laptop 15,8,9857.27,7010.75,2846.52
+2026-10-26,South,Accessories,Headphones,11,1711.31,988.01,723.3
+2026-10-28,East,Phones,Phone Mini,10,4503.94,2566.37,1937.57
+2026-10-29,East,Laptops,Air Laptop 13,3,2727.19,2158.21,568.98
+2026-10-29,North,Accessories,USB-C Hub,8,490.73,315.09,175.64
+2026-10-29,West,Laptops,Air Laptop 13,5,4611.12,2615.84,1995.28
+2026-10-30,South,Laptops,Air Laptop 13,9,7306.61,4763.89,2542.72
